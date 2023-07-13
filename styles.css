@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: max-content;
+  width: 856px;
+  margin: auto;
+  /* background-color: #49653f; */
+  background: rgb(255, 255, 255);
+}
+
+/* body{
+    height: 1971px;
+    width: 856px;
+} */
+input {
+  height: 30px;
+  width: 150px;
+  background-color: rgb(247, 101, 123);
+  color: white;
+  border: none;
+}
+
+.menu {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bolder;
+  color: #000000;
+  word-spacing: 20px;
+  margin-top: 20px;
+  /* width: 57px;
+height: 43px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  width: 496px;
+  height: 187px;
+  margin-left: 60px;
+}
+.John {
+  background-color: rgb(255, 255, 255);
+}
+.Amet {
+  background-color: rgb(255, 255, 255);
+}
+.Download {
+  background-color: rgb(255, 255, 255);
+}
+.topper {
+  /* background-color: rgb(255, 255, 255); */
+  width: 855px;
+  height: 240px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.topright img {
+  border: 1px solid rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 120px;
+  margin-left: 60px;
+}
+.whiteinmiddle {
+  background-color: rgb(228, 252, 254);
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  gap: 20px;
+}
+.middle {
+  background-color: rgb(228, 252, 254);
+  height: 278px;
+  display: flex;
+  justify-content: center;
+}
+
+.Recent {
+  background-color: rgb(228, 252, 254);
+  width: 700px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.posts {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.View {
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(150, 223, 245);
+}
+
+.inmiddle {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px dashed red; */
+  padding: 20px;
+  width: 380px;
+  height: 220px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.inmiddle h1 {
+  font-size: 22px;
+}
+.feature {
+  /* width: 397px; */
+  display: flex;
+  flex-direction: column;
+  height: 792px;
+  background-color: rgb(255, 255, 255);
+}
+.featurework {
+  margin-top: 18px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  margin-left: 80px;
+}
+.featurework p {
+  font-size: 18px;
+}
+.infeature {
+  display: flex;
+  /* border: 1px solid rgb(255, 255, 255); */
+  width: 850px;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #85838338;
+  gap: 16px;
+  width: 700px;
+}
+
+.subinfeature {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(255, 255, 255);
+  height: 180px;
+  width: 480px;
+}
+.subinfeature1 {
+  font-size: 18px;
+}
+.subinfeature2 {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+}
+.subinfeature3 {
+  font-size: 16px;
+}
+.dashboard {
+  width: 246px;
+  height: 180px;
+  border-radius: 10px;
+}
+.year {
+  text-align: center;
+  background-color: rgb(6, 6, 80);
+  width: 60px;
+  border-radius: 40px;
+  color: white;
+  font-weight: bold;
+}
+.facelogo {
+  width: 40px;
+}
+.iglogo {
+  width: 30px;
+}
+.twitterlogo {
+  width: 30px;
+}
+.inlogo {
+  width: 30px;
+}
+.copyright {
+  font-size: 14px;
+}
+.foot1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 165px;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-left: 60px;
+  }
+
+  .topper {
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+
+  .topright img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .middle {
+    flex-direction: column;
+    margin-bottom: 180px;
+    padding-left: 60px;
+  }
+
+  .whiteinmiddle {
+    flex-direction: column;
+  }
+
+  .foot{
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 80px;
+  }
+
+ 
+
+  
+
+
+  
+  .middle,
+  .feature,
+  .inmiddle,
+  .infeature {
+    flex: 1 1 100%;
+  }
+}
